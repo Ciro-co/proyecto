@@ -1,0 +1,41 @@
+*{
+    Margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(154, 252, 255);
+}
+img{
+    height: 650px;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: #110e25;
+}
+
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f1eedd;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none; 
+    font-size: 20px;
+}
+.TamañoCarrusel{
+        width:650px;
+        margin:0 auto;
+    }
+@media screen and (max-width: 600px) {
+    .menu a {
+        float: none;
+        width: 100%;
+        font-size: 17px;
+    }
+    .TamañoCarrusel{
+        width: 100%;
+    }
+}
